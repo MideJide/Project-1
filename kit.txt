@@ -1,0 +1,24 @@
+<script src="https://kit.fontawesome.com/73aef36f56.js" crossorigin="anonymous"></script>
+
+
+<div>
+            <h2>RESOURCE MENU</h2>
+            <li><a href="">CURRENT STUDENTS</a></li>
+            <li><a href="">PARENTS</a></li>
+            <li><a href="">ALUMNI ASSOCIATION</a></li>
+            <li><a href="">FACULTY & STAFF</a></li>
+            <li><a href="">ONLINE</a></li>
+            <li><a href="">GRADUATE</a></li>
+          </div>
+
+          <div>
+            <ul>
+              <li><a href=""><i class="fa-brands fa-youtube fa-2xl" style="color: #c6c6c6;"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram fa-2xl" style="color: #c6c6c6;"></i></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin fa-2xl" style="color: #c6c6c6;"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-twitter fa-2xl" style="color: #c6c6c6;"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-facebook fa-2xl" style="color: #c6c6c6;"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-tiktok fa-2xl" style="color: #c6c6c6;"></i></a></li>
+              
+            </ul>
+          </div>

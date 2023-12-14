@@ -1,0 +1,835 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Home | Anderson University</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./myProject.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
+	  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	  <script src="https://kit.fontawesome.com/73aef36f56.js" crossorigin="anonymous"></script>
+    <!--<style>
+	    @import url(myProject22.css);
+    </style>-->
+  </head>
+  
+  <body>
+    <header>
+      <div class="nav-cont">
+        <div class="topline">
+          <a href="">Sign In</a>
+        </div>
+        <div class="bottom-nav">
+          <div class="logo">
+            <img src="images/logo.svg" alt="AU logo" width="100%" height="100%">
+          </div>
+          
+          <ul>
+            <li class="nav-list"><a href="">ABOUT AU</a></li>
+            <li class="nav-list"><a href="">ADMISSION</a></li>
+            <li class="nav-list"><a href="">ACADEMICS</a></li>
+            <li class="nav-list"><a href="">CAMPUS LIFE</a></li>
+            <li class="nav-list"><a href="">ATHLETICS</a></li>
+            <li class="nav-list"><a href="">GIVE</a></li>
+            <li class="nav-list"><a href="">ALUMNI</a></li>
+            <li><a href="" class="apply" style="padding: 10px 20px;">APPLY</a></li>
+            <button class="bar-sty" onclick="openNav()"><i class="fa-solid fa-bars fa-xl"></i></button>
+          </ul>
+          
+        </div>  
+	    </div>
+    </header>
+
+    <section >
+      <div id="mySidenav" class="sidenav">
+        <div class="sidebar-cont">
+          <div class="side-search">
+            <form action="/action_page.php" class="white-border">
+              <input type="text" placeholder="Search.." name="search">
+              <div class="search-cont">
+                <i class="fas fa-search fa-lg search-i" style="color: #000000;"></i>
+              </div>
+            </form>
+            <div class="closebtn" onclick="closeNav()">&times;</div>
+          </div>
+          <ul class="sidebar-links">
+            <li><a href="">Find Your Program</a></li>
+            <li><a href="">Request Info</a></li>
+            <li><a href="">Visit</a></li>
+          </ul>
+          <div class="drop-div">
+            <button class="dropdown-btn">ABOUT AU</button>
+            <div class="dropdown-container">
+              <a href="#">ABOUT AU</a>
+              <a href="#">MISSION, VISION & VALUES</a>
+              <a href="#">STATEMENT OF FAITH</a>
+              <a href="#">OFFICE OF THE PRESIDENT</a>
+              <a href="#">AU TRADITIONS</a>
+              <a href="#">CAMPUS MAP</a>
+              <a href="#">SHARE YOUR PHOTO</a>
+              <a href="#">THE UNIVERSITY GRACE</a>
+              <a href="#">ALMA MATER</a>
+              <a href="#">INCLEMENT WEATHER INFORMATION</a>
+            </div>
+
+            <button class="dropdown-btn">ADMISSION</button>
+            <div class="dropdown-container">
+              <a href="">ADMISSION</a>
+              <a href="">TRANSFERS</a>
+              <a href="">SPECIAL PROGRAMS</a>
+              <a href="">DUAL-ENROLLMENT SCHOLARS PROGRAM FOR HIGH SCHOOL STUDENT</a>
+              <a href="">ONLINE & CONTINUOUS LEARNING</a>
+              <a href="">GRADUATE</a>
+              <a href="">VETERANS</a>
+              <a href="">SCHOLARSHIPS & AID</a>
+            </div>
+
+            <button class="dropdown-btn">ACADEMICS</button>
+            <div class="dropdown-container">
+              <a href="">ACADEMICS</a>
+              <a href="">FIND YOUR PROGRAM</a>
+              <a href="">COLLEGE OF ARTS & SCIENCES</a>
+              <a href="">COLLEGE OF BUSINESS</a>
+              <a href=""> COLLEGE OF CHRISTIAN STUDIES</a>
+              <a href="">COLLEGE OF EDUCATION</a>
+              <a href="">COLLEGE OF ENGINEERING</a>
+              <a href="">COLLEGE OF HEALTH PROFESSIONS</a>
+              <a href="">SCHOOL OF INTERIOR DESIGN</a>
+              <a href="">SCHOOL OF PUBLIC SERVICE & ADMINISTRATION</a>
+              <a href="">THE SOUTH CAROLINA SCHOOL OF THE ARTS</a>
+              <a href="">CENTER FOR CYBERSECURITY</a>
+              <a href="">CENTER FOR GLOBAL ENGAGEMENT</a>
+              <a href="">CENTER FOR LEADERSHIP AND ORGANIZATIONS</a>
+              <a href="">INNOVATION & DIGITAL LEARNING AT AU</a>
+              <a href="">ONLINE SUMMER DUAL ENROLLMENT</a>
+              <a href="">AU PRO</a>
+              <a href="">STUDY ABROAD</a>
+              <a href="">HONORS PROGRAM</a>
+              <a href="">STUDENT DIVERSITY AND OUTCOMES</a>
+              <a href="">THRIFT LIBRARY</a>
+              <a href="">ACADEMIC CATALOG</a>
+              <a href="">DEAN’S LIST</a>
+              <a href="">STUDENT ACHIEVEMENT</a>
+              <a href="">COMMENCEMENT</a>
+              <a href="">DEFINITION OF CREDIT HOUR</a>
+              <a href="">CALENDARS AND SCHEDULES</a>
+            </div>
+
+            <button class="dropdown-btn">CAMPUS LIFE</button>
+            <div class="dropdown-container">
+              <a href="">CAMPUS LIFE</a>
+              <a href="">WELCOME WEEK</a>
+              <a href="">RECREATION & FITNESS</a>
+              <a href="">COMMUNITY & PUBLIC SERVICE</a>
+              <a href="">CHRISTIAN LIFE</a>
+              <a href="">STUDENT ACTIVITIES</a>
+              <a href="">CAMPUS HOUSING</a>
+              <a href="">DINING AT AU</a>
+              <a href="">THRIVE WELLNESS CENTER</a>
+              <a href="">CAMPUS SAFETY</a>
+              <a href="">DIVERSITY, COMMUNITY & INCLUSION</a>
+              <a href="">STUDENT LEADER</a>
+              <a href="">STUDENT HANDBOOK</a>
+              <a href="">COMPLAINT PROCEDURE</a>
+              <a href="">CURRICULUM ENHANCEMENT PROGRAM (CEP)</a>
+            </div>
+
+            <button class="dropdown-btn">ATHLETICS</button>
+
+            <button class="dropdown-btn">GIVE</button>
+            <div class="dropdown-container">
+              <a href="">GIVE</a>
+              <a href="">OUR COMMUNITY IS STRONGER TOGETHER</a>
+              <a href="">ANDERSON UNIVERSITY MAGAZINE</a>
+              <a href="">A DAY-ONLINE GIVING CAMPAIGN</a>
+              <a href="">BLACKBAUD SECURITY UPDATE</a>
+              <a href="">BOARD OF VISITORS</a></li>
+              <a href="">CHRISTIAN MINISTRY FOUNDATION</a>
+              <a href="">DEVELOPMENT STAFF</a>
+              <a href="">DONOR RECOGNITION</a>
+              <a href="">GIFT & ESTATE PLANNING</a>
+              <a href="">GIVING TO ANDERSON UNIVERSITY</a>
+              <a href="">MAKE A GIFT ONLINE</a>
+              <a href="">PARENT ASSOCIATION</a>
+              <a href="">PARENT LEADERSHIP COUNCIL</a>
+              <a href="">TROJAN ATHLETIC FUND</a>
+              <a href="">WAYS TO GIVE</a>
+            </div>
+
+            <button class="dropdown-btn">ALUMNI</button>
+
+            <div class="resources_nav_cont">
+              <div class="resources">
+                <h2>RESOURCE MENU</h2>
+                <ul class="resources_list">
+                  <li><a href="">CURRENT STUDENTS</a></li>
+                  <li><a href="">PARENTS</a></li>
+                  <li><a href="">ALUMNI ASSOCIATION</a></li>
+                  <li><a href="">FACULTY & STAFF</a></li>
+                  <li><a href="">ONLINE</a></li>
+                  <li><a href="">GRADUATE</a></li>
+                </ul>
+              </div>
+
+              <div class="resources_nav_cont">
+                <div class="resources_socials">
+                  <ul class="resources_socials_list">
+                    <li><a href=""><i class="fa-brands fa-youtube fa-2xl" style="color: #fff;"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram fa-2xl" style="color: #fff;"></i></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin fa-2xl" style="color: #fff;"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter fa-2xl" style="color: #fff;"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook fa-2xl" style="color: #fff;"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-tiktok fa-2xl" style="color: #fff;"></i></a></li>
+                  </ul>
+                </div>
+                </div>
+              </div>
+
+              <div class="trojan">
+                <img src="images/trojan-watermark.jpg" width="280px" height="240px": >
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+      </div>  
+    </section>
+
+
+    <section class="hero">
+      <div class="video">
+        <video width="" height="" autoplay muted>
+          <source src="./website-home.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="hero-element">
+        <h1>Knowledge for your Journey</h1>
+        <img src="images/play-button.png" alt="AU logo" width="113px" height="113px">
+        <div class="btn-group" style="width:auto">
+          <button>VISIT</button>
+          <button>FIND YOUR PROGRAM</button>
+          <button>APPLY</button>
+        </div>
+      </div>
+    </section>
+	  
+    <div class="hero-bottomline">
+      <h3><img src="images/2023-spring-commencement.png" alt="Spring Commencement logo" width="462px" height="84px"></h3>
+    </div>
+
+    <section class="degree">
+      <div class="cont">
+        <div class="degreeHeading">
+          <div class="line"></div>
+          <h2>Find Your Degree</h2>
+        </div>
+        <div class="row">
+          <div class="con-column">
+            <div class="column">
+              <p>
+                Anderson University provides students with a rigorous and engaging learning experience that 
+                emphasizes the knowledge, intellectual skills, and conceptual frameworks central to each discipline.
+              </p>
+
+              <p>
+                Our students are driven by innovation, engaged in active learning, and eager to bring positive changes to the world around them. Anderson University 
+                shares that passion and is committed to helping you discover your calling, your path, and your purpose.
+              </p>
+
+              <p>
+                With 59 major degree programs, 38 concentrations, 46 minors, 18 master’s and doctoral degrees and eight certification programs, you’ll experience
+                a first-class, rigorous education at one of the country’s most respected institutions of Christian higher education.
+              </p>
+
+              <p>
+                Your journey awaits.
+              </p>
+            </div>
+            <div class="column">
+              <h3>TOP MAJORS</h3>
+              <div class="link-cont">
+                <div class="linkColumn">
+                  <ul>
+                    <li><a href="">Christian Studies</a></li>
+                    <li><a href="">Supply Chain Management</a></li>
+                    <li><a href="">Cybersecurity</a></li>
+                    <li><a href="">Political Science</a></li>
+                    <li><a href="">Elementary Education</a></li>
+                  </ul>
+                </div>
+                <div class="linkColumn">
+                  <ul>
+                    <li><a href="">Kinesiology</a></li>
+                    <li><a href="">Graphic Design</a></li>
+                    <li><a href="">Art Education</a></li>
+                    <li><a href="">Biology</a></li>
+                    <li><a href="">Interior Design</a></li>
+                  </ul>
+                </div>
+              </div>
+            
+              <form action="/action_page.php" class="gold-border">
+                <input type="text" placeholder="Search.." name="search">
+                <div class="i-cont">
+                  <i class="fas fa-search fa-lg search-i" style="color: #ffffff;"></i>
+                </div>
+              </form>
+
+              <div class="explore">
+                <span> Explore:</span>
+                <ul class="explore-list">
+                  <li><a href="">Bachelor's</a></li>
+                  <li><a href="">Master's</a></li>
+                  <li><a href="">Doctorate</a></li>
+                  <li><a href="">Online</a></li>
+                  <li style="border: 0;"><a href="">Global</a></li>
+                </ul>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+	
+    <section>
+      <div class="imgSlide">
+        <img src="images/anderson-university-sc-rocky-rivery.jpg" width= "25%">
+        <img src="images/anderson-university-sc-musical.jpg" width= "25%">
+        <img src="images/anderson-university-sc-video.jpg" width= "25%" >
+        <img src="images/anderson-university-sc-marketing.jpg" width= "25%">
+      </div>
+    </section>
+	
+	  
+    <section class="events">
+      <div class="cont">
+        <div class="line"></div>
+        <h2 class="event-head">Upcoming Events</h2>
+        <div class="cardRow">
+      
+          <div class="cardColumn">
+            <div class="card">
+              <div class="card-img">
+                <img src="images/vip-golf_0.jpg" alt="Jane" style="width:100%" class="pic-effect" >
+              </div>
+              <div class="card-body">
+                <h4 class="title">
+                  AU VIP Golf Tournament
+                </h4>
+                <div class="date-box">
+                  <span style= "font-size:20px">MAY</span>
+                  <span>12</span>
+                </div>
+                <div class="event-location">
+                  <i class="fa-solid fa-location-dot" style="color:#bca270"></i>
+                  Currahee Club
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardColumn">
+            <div class="card">
+              <div class="card-img">
+                <img src="images/BC_Event_final_0.jpg" alt="Mike" style="width:100%" class="pic-effect" >
+              </div>
+              <div class="card-body">
+                <h4 class="title">Base Camp, Session  1</h4>
+                <div class="date-box">
+                  <span style= "font-size:20px">JUN</span>
+                  <span>20</span>
+                </div>
+                <div class="event-date">
+                  <i class="fa-regular fa-clock" style="color:#bca270"></i>
+                  8:30 AM - 4:45 PM
+                </div>
+                <div class="event-location">
+                  <i class="fa-solid fa-location-dot" style="color:#bca270"></i>
+                  Campus
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="cardColumn">
+            <div class="card">
+              <div class="card-img">
+                <img src="images/BC_Event_final_0.jpg" alt="John" style="width:100%" class="pic-effect" >
+              </div>
+              <div class="card-body">
+                <h4 class="title">Base Camp, Session  2</h4>
+                <div class="date-box">
+                  <span style= "font-size:20px">MAY</span>
+                  <span>21</span>
+                </div>
+                <div class="event-date">
+                  <i class="fa-regular fa-clock" style="color:#bca270"></i>
+                  8:30 AM - 4:45 PM
+                </div>
+                <div class="event-location">
+                  <i class="fa-solid fa-location-dot" style="color:#bca270"></i>
+                  Campus
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      <div class="event-btn-cont"> 
+        <button class=" ">ALL EVENTS</button>
+      </div> 
+      </div>
+    </section>
+	
+    <section>
+      <div class="seal-row">
+        <div class="column img-position">
+          <img src="images/anderson-university-seal-1.png" alt="Anderson University Seal" width="315px" height="342px" >
+        </div>
+        <div class="column">
+          <h3>AU at a Glance</h3>
+          <p>
+            For God and humanity, Anderson University seeks to be an innovative, entrepreneurial premier comprehensive university where liberal arts, 
+            professional studies and graduate studies thrive within an uplifting, welcoming and distinctively Christian community of diverse faculty, 
+            staff and students dedicated to intellectually rigorous learning, a caring and hospitable campus culture and personal transformation.
+          </p>
+          <p>
+            <button class="seal_button" style="width:auto" >OUR JOURNEY OF EXCELLENCE</button>
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <div class="imgSlide">
+        <img src="images/anderson-university-sc-rocky-rivery.jpg" width= "25%">
+        <img src="images/anderson-university-sc-musical.jpg" width= "25%">
+        <img src="images/anderson-university-sc-video.jpg" width= "25%" >
+        <img src="images/anderson-university-sc-marketing.jpg" width= "25%">
+      </div>
+    </section>
+    
+    <section class="news">
+      <div class="cont">
+        <div class="line" style="background-color: #fff;"></div>
+        <h2>AU News</h2>
+        <div class="news-card_cont">
+          <div class="news-card">
+            <div class="news-card_img">
+              <img src="images/Web-SID-Growe.jpg.webp" alt="Jane" style="width:100%" class="pic-effect" >
+            </div>
+            <div class="news-over">
+              <div class="news-card_body">
+                <div class="news-card_date">
+                  <span class="news-date">
+                    <i class="fa-regular fa-clock"></i>
+                    MAY 10
+                  </span>
+                  <span class="news-category">School of Interior Design</span>
+                </div>
+                <div class="news-card_title">
+                  School of Interior Design Graduate Placement is High
+                </div>
+                <div class="news-card_description">
+                  <p style="margin-bottom: 2.4rem; line-height: 1.5rem;">
+                    A graduate of the Anderson University School of Interior Design shares her journey.
+                  </p>
+                  <a class="news-card_link" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-card_img">
+              <img src="images/Web - 23 Mercury Awards.jpg.webp" alt="Jane" style="width:100%" class="pic-effect" >
+            </div>
+            <div class="news-over">
+              <div class="news-card_body">
+                <div class="news-card_date">
+                  <span class="news-date">
+                    <i class="fa-regular fa-clock"></i>
+                    MAY 10
+                  </span>
+                  <span class="news-category">School of Interior Design</span>
+                </div>
+                <div class="news-card_title">
+                  School of Interior Design Graduate Placement is High
+                </div>
+                <div class="news-card_description">
+                  <p style="margin-bottom: 2.4rem; line-height: 1.5rem;">
+                    A graduate of the Anderson University School of Interior Design shares her journey.
+                  </p>
+                  <a class="news-card_link" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-card_img">
+              <img src="images/Web-brand-COB.jpg.webp" alt="Jane" style="width:100%" class="pic-effect" >
+            </div>
+            <div class="news-over">
+              <div class="news-card_body">
+                <div class="news-card_date">
+                  <span class="news-date">
+                    <i class="fa-regular fa-clock"></i>
+                    MAY 10
+                  </span>
+                  <span class="news-category">School of Interior Design</span>
+                </div>
+                <div class="news-card_title">
+                  School of Interior Design Graduate Placement is High
+                </div>
+                <div class="news-card_description">
+                  <p style="margin-bottom: 2.4rem; line-height: 1.5rem;">
+                    A graduate of the Anderson University School of Interior Design shares her journey.
+                  </p>
+                  <a class="news-card_link" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-card_img">
+              <img src="images/Web-Commencement S23-tassels.jpg.webp" alt="Jane" style="width:100%" class="pic-effect" >
+            </div>
+            <div class="news-over">
+              <div class="news-card_body">
+                <div class="news-card_date">
+                  <span class="news-date">
+                    <i class="fa-regular fa-clock"></i>
+                    MAY 10
+                  </span>
+                  <span class="news-category">School of Interior Design</span>
+                </div>
+                <div class="news-card_title">
+                  School of Interior Design Graduate Placement is High
+                </div>
+                <div class="news-card_description">
+                  <p style="margin-bottom: 2.4rem; line-height: 1.5rem;">
+                    A graduate of the Anderson University School of Interior Design shares her journey.
+                  </p>
+                  <a class="news-card_link" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-card_img">
+              <img src="images/Web-Peace.jpg.webp" alt="Jane" style="width:100%" class="pic-effect" >
+            </div>
+            <div class="news-over">
+              <div class="news-card_body">
+                <div class="news-card_date">
+                  <span class="news-date">
+                    <i class="fa-regular fa-clock"></i>
+                    MAY 10
+                  </span>
+                  <span class="news-category">School of Interior Design</span>
+                </div>
+                <div class="news-card_title">
+                  School of Interior Design Graduate Placement is High
+                </div>
+                <div class="news-card_description">
+                  <p style="margin-bottom: 2.4rem; line-height: 1.5rem;">
+                    A graduate of the Anderson University School of Interior Design shares her journey.
+                  </p>
+                  <a class="news-card_link" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-card_img">
+              <img src="images/Web-Cybersecurity students.jpg.webp" alt="Jane" style="width:100%" class="pic-effect" >
+            </div>
+            <div class="news-over">
+              <div class="news-card_body">
+                <div class="news-card_date">
+                  <span class="news-date">
+                    <i class="fa-regular fa-clock"></i>
+                    MAY 10
+                  </span>
+                  <span class="news-category">School of Interior Design</span>
+                </div>
+                <div class="news-card_title">
+                  School of Interior Design Graduate Placement is High
+                </div>
+                <div class="news-card_description">
+                  <p style="margin-bottom: 2.4rem; line-height: 1.5rem;">
+                    A graduate of the Anderson University School of Interior Design shares her journey.
+                  </p>
+                  <a class="news-card_link" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-card_img">
+              <img src="images/Web-23 1st gen grads.jpg.webp" alt="Jane" style="width:100%" class="pic-effect" >
+            </div>
+            <div class="news-over">
+              <div class="news-card_body">
+                <div class="news-card_date">
+                  <span class="news-date">
+                    <i class="fa-regular fa-clock"></i>
+                    MAY 10
+                  </span>
+                  <span class="news-category">School of Interior Design</span>
+                </div>
+                <div class="news-card_title">
+                  School of Interior Design Graduate Placement is High
+                </div>
+                <div class="news-card_description">
+                  <p style="margin-bottom: 2.4rem; line-height: 1.5rem;">
+                    A graduate of the Anderson University School of Interior Design shares her journey.
+                  </p>
+                  <a class="news-card_link" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-card_img">
+              <img src="images/Web-Woods.jpg.webp" alt="Jane" style="width:100%" class="pic-effect" >
+            </div>
+            <div class="news-over">
+              <div class="news-card_body">
+                <div class="news-card_date">
+                  <span class="news-date">
+                    <i class="fa-regular fa-clock"></i>
+                    MAY 10
+                  </span>
+                  <span class="news-category">School of Interior Design</span>
+                </div>
+                <div class="news-card_title">
+                  School of Interior Design Graduate Placement is High
+                </div>
+                <div class="news-card_description">
+                  <p style="margin-bottom: 2.4rem; line-height: 1.5rem;">
+                    A graduate of the Anderson University School of Interior Design shares her journey.
+                  </p>
+                  <a class="news-card_link" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <div class="news-card_img">
+              <img src="images/Web - Vocab App.jpg.webp" alt="Jane" style="width:100%" class="pic-effect" >
+            </div>
+            <div class="news-over">
+              <div class="news-card_body">
+                <div class="news-card_date">
+                  <span class="news-date">
+                    <i class="fa-regular fa-clock"></i>
+                    MAY 10
+                  </span>
+                  <span class="news-category">School of Interior Design</span>
+                </div>
+                <div class="news-card_title">
+                  School of Interior Design Graduate Placement is High
+                </div>
+                <div class="news-card_description">
+                  <p style="margin-bottom: 2.4rem; line-height: 1.5rem;">
+                    A graduate of the Anderson University School of Interior Design shares her journey.
+                  </p>
+                  <a class="news-card_link" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+        <div class="news-btn-cont">
+          <button class="news-btn">ALL NEWS</button>
+        </div>
+      </div>
+    </section>
+	
+    <section class="know">
+      <div class="cont">
+        <div class="line"></div>
+        <h2>Did You Know?</h2>
+        <div class="know-row">
+          <div class="info-column">
+            <img src="images/au-financial-aid.svg" alt="au-financial-aid" width="132px" height="132px">
+            <p class="info-column_align">
+              <strong>
+                100%
+              </strong>
+              <br>
+                of traditional students 
+              <br>
+              <span>
+                get financial aid
+              </span>
+            </p>
+          </div>
+          <div class="info-column">
+            <img src="images/au-basketball-hoop.svg" alt="au-basketball-hoop" width="132px" height="132px">
+            <p class="info-column_align">
+              <strong>
+                20+
+              </strong>
+              <br>
+              intramural sports
+              <br>
+              <span>
+                for you to join a team
+              </span>
+            </p>
+          </div>
+          <div class="info-column">
+            <img src="images/au-hands.svg" alt="au-hands" width="132px" height="132px">
+            <p class="info-column_align">
+              <strong>
+                100+
+              </strong>
+              <br>
+              ongoing students activities
+              <br>
+              <span>
+                for you to attend
+              </span>
+            </p>
+          </div>
+          <div class="info-column">
+            <img src="images/au-merritt.svg" alt="au-merritt" width="132px" height="132px">
+            <p class="info-column_align">
+              <strong>
+                76%
+              </strong>
+              <br>
+              of students who visit AU
+              <br>
+              <span>
+                decide to enroll
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="footNote">
+      <div class="cont">
+        <p>
+          Anderson University does not unlawfully discriminate on the basis of race, color, national origin, sex, disability, age, or religion in its
+          programs and activities. Please direct inquiries to Dr. L. Dianne King, Associate Vice President for Student Development/Dean of Student
+          Success/Title IX Coordinator, Thrift Library Office 203, 316 Boulevard, Anderson, SC, 29621, (864) 231-2026, <a href="" style="color: #ad8d52;"> ldking@andersonuniversity.edu </a> or to the Office of Civil Rights, U.S. Department of Education at 1-800-421-3481 or ocr@ed.gov
+        </p>
+      </div>
+    </div>
+    
+    <footer>
+      <div class="cont">
+        <div class="footer-column">
+          <div class="footer_logo">
+            <img src="images/au-footer-logo.svg" alt="au-footer-logo" style="width:250px">
+            <p class="address">
+              316 Boulevard <br> Anderson, South Carolina 29621<br> Contact Us | 864.231.2000
+            </p>
+            <p>
+              <button class="footer_button" style="padding: 8px 30px; background-color: #363434; color: #fff; width: 8rem;">APPLY</button>
+            </p>
+          </div>
+          <div class="vl"></div>
+          <div class="footer_menu">
+            <div class="menu_column">
+              <h5>CONNECT</h5>
+              <ul>
+                <li><a href="">Anderson Central</a></li>
+                <li><a href="">AU Webmail</a></li>
+                <li><a href="">AUnited</a></li>
+                <li><a href="">Canvas</a></li>
+                <li><a href="">MyApps</a></li>
+                <li><a href="">Campus Safety</a></li>
+                <li><a href="">Zoom</a></li>
+                </ul>
+            </div>
+            <div class="menu_column">
+              <h5>LEARN</h5>
+              <ul>
+                <li><a href="">AU PRO</a></li>
+                <li><a href="">About AU</a></li>
+                <li><a href="">Accreditations and Affiliations</a></li>
+                <li><a href="">Apple Distinguished School</a></li>
+                <li><a href="">Calendars and Schedules</a></li>
+                <li><a href="">Mobile Learning Initiative</a></li>
+              </ul>
+            </div>
+            <div class="menu_column">
+              <h5>DISCOVER</h5>
+              <ul>
+                <li><a href="">Campus Map</a></li>
+                <li><a href="">Library</a></li>
+                <li><a href="">Employment</a></li>
+                <li><a href="">Guest Services</a></li>
+              </ul>
+            </div>
+            <div class="menu_column">
+              <h5>POLICY/TERMS</h5>
+              <ul>
+                <li><a href="">Terms of Use</a></li>
+                <li><a href="">Intellectual Property Rights</a></li>
+                <li><a href="">Consumer Information Disclosure</a></li>
+                <li><a href="">Nondiscriminatory Admissions Policy</a></li>
+              </ul>
+            </div>
+            <div class="menu_column socials-cont">
+              <h5>AU SOCIAL</h5>
+              <ul class="socials">
+                <li><a href=""><i class="fa-brands fa-instagram fa-2xl" style="color: #c6c6c6;"></i></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube fa-2xl" style="color: #c6c6c6;"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-facebook fa-2xl" style="color: #c6c6c6;"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin fa-2xl" style="color: #c6c6c6;"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter fa-2xl" style="color: #c6c6c6;"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p style="margin: 7px 0px 0px;">
+            Copyright © 2023 Anderson University | All rights reserved
+          </p>
+          <img src="images/distinguished.png" alt="">
+        </div>
+      </div>  
+    </footer>
+    
+    <script>
+      /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "438px";
+        document.body.style.backgroundColor = rgba(0, 0, 0, 0.5);
+      }
+
+      /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.body.style.backgroundColor = "white";
+      }
+
+      var dropdown = document.getElementsByClassName("dropdown-btn");
+      var i;
+
+      for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+          } else {
+            dropdownContent.style.display = "block";
+          }
+        });
+      }
+    </script>
+
+  </body>
+</html>
